@@ -62,7 +62,7 @@ portfolio/
 
 ## Deployment
 
-This site is live at: [https://your-portfolio-domain.com](https://your-portfolio-domain.com)
+This site is live at: https://olasportfolio-akinkuolie-olaitans-projects.vercel.app/
 
 
 ## Contributing
