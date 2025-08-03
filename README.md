@@ -76,7 +76,7 @@ I’m always open to feedback and improvement! If you’d like to suggest change
 Want to collaborate or just say hello? Reach me at:
 
 - **Email:** olaitanclems24@gmail.com
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourusername)
+- **LinkedIn:** https://www.linkedin.com/in/olaitan-akinkuolie-2353b3204/
 ---
 
 ## License
