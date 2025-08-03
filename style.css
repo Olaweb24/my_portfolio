@@ -1,0 +1,630 @@
+/* Reset Styles */
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(6, 6, 90);
+    background-attachment: fixed;
+}
+
+
+
+/* Navigation Bar */
+
+.menu-icon {
+    display: none;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(21, 21, 128);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1em;
+    padding-right: 2em;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color:  aqua;;
+    font-weight: bold;
+    font-family: arial;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover{
+    transform: scale(1.15);
+    color: white;
+}
+
+
+
+/*About Section */
+.about-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 700px;
+}
+
+#about h2{
+    color: white;
+}
+
+#about p{
+    line-height: 1.5em;
+    text-align: justify;
+    font-family: Arial;
+    color: white;
+}
+
+span{
+    color: aqua;
+    line-height: 1.5em;
+    text-align: justify;
+    font-family: Arial;
+}
+
+/* Aticle section of About */
+.about-container article{
+    flex: 1;
+    min-width: 250px;
+}
+
+.about-container figure{
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.about-button{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    color: rgb(21, 21, 128);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border-color: aqua;
+    box-shadow: 
+        0 0 30px 2px rgba(30, 57, 132, 0.7),
+        0 0 40px 4px rgba(33, 120, 191, 0.6),
+        0 0 50px 6px rgba(255, 255, 0, 0.5),
+        0 0 60px 8px rgba(0, 128, 0, 0.4),
+        0 0 70px 10px rgba(73, 50, 178, 0.3),
+        0 0 80px 12px rgba(75, 0, 130, 0.2),
+        0 0 70px 14px rgba(239, 233, 239, 0.15);
+}
+
+h2{
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-family: arial;
+    font-size: 1rem;
+}
+
+/*Programming Language section*/
+
+#languages{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-container{
+    background-color: rgb(6, 6, 90);
+    border-radius: 50px;
+    width: 900px;
+}
+
+#languages p{
+    padding-top:50px;
+}
+
+
+#languages h2{
+    margin-bottom: 50px;
+    color: white;
+}
+#languages 
+.language-grid{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    height: 300px;
+    margin: auto;
+}
+
+.language-grid div{
+    background-color: rgb(6, 6, 90);
+    box-shadow: 2px 0px 20px 5px aqua;
+    border-radius: 20px;
+    padding: 2rem;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border-radius: 50px 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/*Educational Background */
+
+#education{
+    min-height: 500px;
+    background-color: rgb(21, 21, 128);
+    width: 1100px;
+    margin: auto;
+    border-radius: 50px;
+    padding: 50px; 
+}
+
+#education h2{
+    color: white;
+}
+#education h4{
+    color: aqua;
+    text-align: center;
+    font-family: verdana;
+    padding-top: 20px;
+}
+.edu-paragraph{
+    text-align: justify;
+    padding: 10px;
+    margin: 20px 80px;
+    color: white;
+    line-height: 1.5em;
+}
+.cv-container{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: aqua;
+    border: none;
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+
+button a{
+    text-decoration: none;
+    color:  rgb(6, 6, 90);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: transform 0.5s ease, color 2s ease;
+}
+
+    
+button:hover{
+    transform: scale(1.1);
+    background-color: white;
+}
+
+/* Interests Section */
+
+#interests {
+    margin-top: 200px;
+    min-height: 500px;
+    padding: 40px;
+    background-color: rgb(6, 6, 90);
+    max-width: 1200px;
+    box-shadow: 0px 0px 1px 1px aqua;
+    margin: 200px 20px 0px 20px;
+    border-radius: 20px;
+}
+
+.interest-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.interest-box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.interest-box div {
+    background: rgb(6, 6, 90);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 0px 20px 5px aqua;
+    line-height: 1.6;
+}
+
+.interest-box span {
+    color: aqua;
+    font-family: verdana;
+    text-align: justify;
+}
+
+.interest-box p {
+    color: white;
+    font-family: verdana;
+    text-align: justify;
+}
+
+
+/* Project section */
+#projects{
+    height: 800px;
+    margin-top: 200px;
+}
+
+#projects h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+h3{
+    color: aqua;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Project section Grid layout */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Project card styling */
+.project-card {
+  background-color: #f9f9f9;
+  padding: 1.1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: auto;
+  height: 180px; 
+  object-fit: cover; 
+  border-radius: 8px;
+  margin-bottom: 0.1rem;
+  box-shadow: none;
+}
+
+.project-card p{
+    font-size: 1.3rem;
+    color: rgb(4, 5, 80);
+}
+
+.project-card a{
+    text-decoration: none;
+    color: red;
+    font-size: 0.9em;
+    font-family: arial;
+}
+
+
+
+/* Contact section */
+
+#contact {
+    min-height: 100vh;
+    padding: 40px;
+    background-color: rgb(4, 5, 80);
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-text h3{
+    background-color: rgb(4, 5, 80);
+    padding: 0;
+    margin-top: 70px;
+    font-size: 24px;
+}
+
+.contact-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 200px;
+    flex-wrap: wrap; 
+}
+
+.contact-text,
+.contact-box {
+    flex: 1;
+    min-width: 200px;
+    color: white;
+    font-family: arial;
+    text-align: justify;
+}
+
+.email{
+    color: aqua;
+}
+
+
+
+/* Contct section for Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: aqua;
+    color: rgb(4, 5, 80);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: white;
+}
+
+
+/* Footer Section */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(21, 21, 128);
+    color: white;
+    margin-top: 2rem;
+}
+
+footer p{
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
+/* Responsive Layout */
+
+@media (max-width: 1024px) {
+.about-container {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+}
+
+ .about-button {
+    margin-left: 0;
+}
+
+#education {
+    width: 90%;
+    height: auto;
+}
+
+.cv-container a{
+    font-size: 0.9em;
+}
+.edu-paragraph {
+    margin: 0px;
+    padding: 0;
+}
+
+.language-container {
+    width: 95%;
+}
+
+.language-grid {
+    flex-direction: column;
+    align-items: center;
+}
+
+.language-grid div {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.interest-box {
+    grid-template-columns: 1fr;
+}
+
+.project-card {
+    text-align: center;
+}
+
+#projects {
+    height: auto;
+    padding: 0 1rem;
+}
+
+.contact-container {
+    gap: 50px;
+  }
+}
+
+
+@media (max-width: 768px) {
+ 
+/* To Hide the checkbox */
+#menu-toggle {
+    display: none;
+}
+
+/* Hamburger Icon styling*/
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    color: aqua;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+/* Responsive nav */
+
+@media (max-width: 768px) {
+    nav {
+
+            flex-direction: column;
+            align-items: flex-start;
+            height: auto;
+            padding: 0.5rem;
+}
+
+.menu-icon {
+    display: block;
+}
+
+#nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(21, 21, 128);
+    padding: 1rem;
+}
+
+#menu-toggle:checked + .menu-icon + #nav-links {
+    display: flex;
+}
+
+nav ul li a {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    color: aqua;
+  }
+}
+
+
+.contact-container {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form button {
+    width: 100%;
+}
+
+.project-grid {
+    grid-template-columns: 1fr;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.language-grid {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 480px) {
+    .about-button, 
+    button {
+        width: 100%;
+        margin: 1rem auto; 
+    }
+
+.interest-box {
+    padding: 0 1rem;
+}
+
+.language-grid div {
+    width: 100%;
+    height: auto;
+}
+
+.contact-text p {
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p,
+.project-card p {
+    font-size: 1rem;
+}
+
+.project-card {
+    padding: 1rem;
+}
+
+form input,
+form textarea {
+    font-size: 1rem;
+  }
+}
